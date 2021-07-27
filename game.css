@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap');
+body {
+    background-color: #f8eedc;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    top: 20%;
+    left: 80%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.text {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 1em 0.5em;
+    position: relative;
+    border: 7px;
+    padding: 0px;
+    margin: 50px auto 30px auto;
+    border-radius: 14px;
+}
+
+table tr td {
+    height: 130px;
+    width: 130px;
+    font-size: 35px;
+    border-radius: 15px;
+    background-color: #78bec5;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 67px;
+}
+
+table tr td:hover {
+    background: #5c5d5f;
+}
+
+.btn {
+    margin-top: 40px;
+    background: #476072;
+    border: none;
+    padding: 15px 40px;
+    font-size: 30px;
+    border-radius: 50px;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover {
+    background: #022E57;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}

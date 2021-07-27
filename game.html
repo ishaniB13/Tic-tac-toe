@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>TicTac</title>
+</head>
+
+<body onload="initiate()">
+    <h1>Tic-Tac-Toe</h1>
+    <div id="message" class="text">Result</div>
+    <table class="game">
+        <tr>
+            <td id="b1" class="box" onclick="nextMove(this);"></td>
+            <td id="b2" class="box" onclick="nextMove(this);"></td>
+            <td id="b3" class="box" onclick="nextMove(this);"></td>
+        </tr>
+        <tr>
+            <td id="b4" class="box" onclick="nextMove(this);"></td>
+            <td id="b5" class="box" onclick="nextMove(this);"></td>
+            <td id="b6" class="box" onclick="nextMove(this);"></td>
+        </tr>
+        <tr>
+            <td id="b7" class="box" onclick="nextMove(this);"></td>
+            <td id="b8" class="box" onclick="nextMove(this);"></td>
+            <td id="b9" class="box" onclick="nextMove(this);"></td>
+        </tr>
+    </table>
+
+    <button class="btn" onclick="initiate()">Play New Game</button>
+    <script src="game.js"></script>
+</body>
+
+</html>
